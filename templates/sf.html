@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Student Form</h1>
+        <form method="post">
+            {% csrf_token %}
+
+            {{SFO.as_p}}
+
+            <input type="submit" value="validator_dj_form">
+        </form>
+    </center>
+</body>
+</html>
